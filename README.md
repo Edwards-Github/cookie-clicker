@@ -40,12 +40,12 @@ python cookie_clicker.py
    - Begin clicking the cookie and purchasing upgrades.
 
 ## How It Works
-  - ** Selenium WebDriver ** : Controls the browser to interact with the game elements.
-  - ** XPath and ID Selectors ** : Locate game elements like the cookie, upgrades, and product prices.
-  - ** Looping Mechanism ** : Continuously clicks the cookie and evaluates upgrade purchases.
+  - **Selenium WebDriver** : Controls the browser to interact with the game elements.
+  - **XPath and ID Selectors** : Locate game elements like the cookie, upgrades, and product prices.
+  - **Looping Mechanism** : Continuously clicks the cookie and evaluates upgrade purchases.
 
 ## Disclaimer
 This project is for educational purposes only. Automating browser games may violate their terms of service, so use responsibly.
 
 ## Acknowledgments
-Special thanks to ** Tech With Tim ** for the educational contentand to the Selenium community for their excellent resources.
+Special thanks to **Tech With Tim** for the educational contentand to the Selenium community for their excellent resources.
