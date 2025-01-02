@@ -48,4 +48,4 @@ python cookie_clicker.py
 This project is for educational purposes only. Automating browser games may violate their terms of service, so use responsibly.
 
 ## Acknowledgments
-Special thanks to **Tech With Tim** for the educational contentand to the Selenium community for their excellent resources.
+Special thanks to [Tech With Tim](https://www.youtube.com/@TechWithTim) for the educational contentand to the Selenium community for their excellent resources.
