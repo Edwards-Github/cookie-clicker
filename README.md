@@ -1,24 +1,51 @@
-# cookie-clicker
-This Python script automates gameplay for the browser-based game Cookie Clicker using Selenium.
+# Cookie Clicker Automation with Python
 
-Features
-  - Automates clicking the cookie to accumulate resources continuously.
-  - Tracks the current cookie count in real time.
-  - Dynamically identifies and purchases upgrades based on available cookies.
-  - Handles dynamic web elements using Selenium’s WebDriverWait and expected_conditions.
-  - Interacts with game elements by locating them through unique identifiers and XPath.
-Technologies Used
-  - Python: Core programming language.
-  - Selenium: For browser automation and interaction with dynamic web elements.
-How to Use
-  - Install Selenium and ensure you have a compatible version of ChromeDriver.
-  - Update the chromedriver.exe path in the script to match your system.
-  - Run the script in a Python environment.
-  - Watch as the bot plays Cookie Clicker for you!
-Prerequisites
-  - Python 3.x
-  - Selenium (pip install selenium)
-  - ChromeDriver installed and in the correct path
-  - 
-This project is a fun way to explore web automation and Selenium's capabilities. Feel free to fork, modify, or enhance the bot!
+## Project Overview
+This project automates the popular browser game Cookie Clicker using Python and Selenium. By simulating user clicks and automating upgrades, this script helps achieve higher scores faster without manual effort. It’s a fun way to explore browser automation while engaging with a lighthearted game.
 
+## Features
+- Automatically clicks the main cookie to generate cookies.
+- Purchases upgrades and products when sufficient cookies are available.
+- Continuously monitors cookie count and optimizes resource usage.
+  
+## Requirements
+To run this project, you’ll need:
+- Python 3.6 or later
+- Google Chrome installed
+- ChromeDriver compatible with your Chrome version
+- Selenium library
+
+## Installation
+1. Clone this repository to your local machine
+```
+https://github.com/Edwards-Github/cookie-clicker.git
+```
+2. Install the required Python libraries:
+```
+pip install selenium
+```
+3. Download and place the appropriate `chromedriver.exe` in the project directory
+```
+https://googlechromelabs.github.io/chrome-for-testing/
+```
+
+## Usage
+1. Run the script:
+```
+python cookie_clicker.py
+```
+2. The script will:
+   - Open the Cookie Clicker game in a browser.
+   - Automatically select the English language option.
+   - Begin clicking the cookie and purchasing upgrades.
+
+## How It Works
+  - ** Selenium WebDriver ** : Controls the browser to interact with the game elements.
+  - ** XPath and ID Selectors ** : Locate game elements like the cookie, upgrades, and product prices.
+  - ** Looping Mechanism ** : Continuously clicks the cookie and evaluates upgrade purchases.
+
+## Disclaimer
+This project is for educational purposes only. Automating browser games may violate their terms of service, so use responsibly.
+
+## Acknowledgments
+Special thanks to ** Tech With Tim ** for the educational contentand to the Selenium community for their excellent resources.
